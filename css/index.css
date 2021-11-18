@@ -119,6 +119,12 @@ main{
     cursor: pointer;
 }
 
+.projet button:hover{
+    transform: scale(1.03);
+    color: white;
+    background-color: deeppink;
+}
+
 footer{
     display: flex;
     flex-direction: row;
