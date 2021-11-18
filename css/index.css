@@ -1,0 +1,133 @@
+.html,body{
+    overflow-x: hidden;
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+
+h1{color: white;}
+
+h2,h3{color: deeppink;}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 85px;
+    padding-left: 20px;
+    background-color: deeppink;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    align-items: center;
+}
+
+header i{
+    font-size: xxx-large;
+    padding-right: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction{
+    border: deeppink 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.introduction p{text-align: center;}
+
+.projets{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 70px;
+    margin-bottom: 50px;
+}
+
+.projet-all{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: 20px;
+    border: deeppink 2px solid;
+}
+
+.projet:hover{transform: scale(1.03);}
+
+.projet img{width: 100%;}
+
+.projet-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.projet h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projet p{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.projet-icon{
+    margin-bottom: 20px;
+    color: deeppink;
+}
+
+.projet button{
+    margin-bottom: 20px;
+    color: deeppink;
+    border-radius: 30px;
+    border: deeppink 2px solid;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    line-height: 70px;
+    background-color: deeppink;
+    color: white;
+    align-items: center;
+}
+
+footer i{padding-right: 10px;}
