@@ -1,0 +1,76 @@
+header a{
+    position: absolute;
+    left: 20px;
+    font-size: xx-large;
+    color: white;
+}
+
+.projet-introduction{
+    border: deeppink 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    align-content: center;
+    line-height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.projet-introduction img{width: 100%;}
+
+.projet-introduction-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    line-height: 50px;
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.projet-introduction-description h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.projet-introduction-description p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.projet-introduction-description-icon {
+    color: deeppink;
+    font-size: x-large;
+    margin: 0;
+}
+
+.mission{
+    width: 95%;
+    padding: 20px;
+}
+
+.mission h2{text-align: center;}
+
+.resultat{
+    width: 95%;
+    padding: 20px;
+}
+
+.resultat h2{text-align: center;}
+
+.resultat-description a, .resultat-description a:hover, .resultat-description a:active,.resultat-description a:visited, .resultat-description a:link{
+    text-decoration: none;
+    color: deeppink;
+    font-weight: bold;
+}
+
+.W3C-reservia-val{
+    display: flex;
+    justify-content: space-evenly;
+}
+
